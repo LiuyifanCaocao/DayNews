@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MusicActivity"
+    android:background="@drawable/w2345_image_file_copy_18">
+    <com.jredu.liuyifan.mygoalapplication.util.AutoScrollTextView
+        android:id="@+id/TextViewNotice"
+        android:layout_height="60px"
+        android:layout_width="fill_parent"
+        android:textColor="#0F0"
+        android:inputType="text"
+        android:background="#EF0"
+        android:layout_marginTop="80dp"
+        android:textSize="24sp">
+    </com.jredu.liuyifan.mygoalapplication.util.AutoScrollTextView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white0_1">
+
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/shadow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的音乐"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray1" />
+    </RelativeLayout>
+
+    <ListView
+        android:paddingTop="3dp"
+        android:paddingBottom="70dp"
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout">
+
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_Ctrl"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white0_1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray1"/>
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/checked_music"
+            android:button="@null" />
+
+        <Button
+            android:id="@id/back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@+id/checkbox"
+            android:background="@drawable/shougyishou"
+            android:button="@null" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@+id/checkbox"
+            android:background="@drawable/button_xiayishou"
+            android:button="@null" />
+    </RelativeLayout>
+
+</RelativeLayout>

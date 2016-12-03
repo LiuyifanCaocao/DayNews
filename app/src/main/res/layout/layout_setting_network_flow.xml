@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2G/3G网络流量"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view"
+        android:padding="16dp">
+
+        <RadioButton
+            android:id="@+id/big"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:button="@null"
+            android:drawableRight="@drawable/choosed"
+            android:text="最佳效果(下载大图)"
+            android:textColor="@drawable/text_size"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:button="@null"
+            android:drawableRight="@drawable/choosed"
+            android:text="较省流量(智能下图)"
+            android:textColor="@drawable/text_size"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:button="@null"
+            android:drawableRight="@drawable/choosed"
+            android:text="不下载图"
+            android:textColor="@drawable/text_size"
+            android:textSize="15sp"/>
+
+    </RadioGroup>
+
+
+</RelativeLayout>

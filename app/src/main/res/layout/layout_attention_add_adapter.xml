@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/image_view"
+        android:layout_marginBottom="10dp"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="80dp"
+        android:id="@+id/text_view_title"
+        android:text="手游"
+        android:textSize="14sp"
+        android:layout_alignTop="@id/image_view"
+        android:layout_alignLeft="@+id/ctime"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="asdfsfaslkfjs"
+        android:layout_toRightOf="@id/image_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="80dp"
+        android:textSize="8sp"
+        android:layout_alignBottom="@id/image_view"
+        android:id="@+id/ctime"/>
+    <CheckBox
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:button="@null"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_attention_add"
+        android:layout_alignParentRight="true"
+        android:id="@+id/checkbox"/>
+</RelativeLayout>

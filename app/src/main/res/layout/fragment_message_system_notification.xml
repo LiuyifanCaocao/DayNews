@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jredu.liuyifan.mygoalapplication.fragment.MessageSystemNotificationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/channel_discover" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/img">
+
+            <TextView
+                android:id="@+id/one_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="系统通知"
+                android:textColor="@color/red2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/two_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one_text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:text="你有一个新粉丝" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/two_text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:text="09-26 15:21"
+                android:textSize="8sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

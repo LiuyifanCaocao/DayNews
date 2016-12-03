@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/w2345_image_file_copy_2"
+        android:id="@+id/img_view"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/talk_right"
+        android:src="@drawable/talk_right"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/img_view"
+        android:layout_alignTop="@+id/text_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_content"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/img_view"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/talk_text_view"
+        android:text="埃里克森等阿斯顿发送到发送到发送到发阿斯顿发生地方级发生纠纷快乐撒娇东方拉斯加对方"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text_content"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:gravity="center_vertical"
+        android:id="@+id/date"
+        android:layout_alignRight="@+id/text_content"
+        android:text="2016-10-11,09:27"/>
+
+</RelativeLayout>

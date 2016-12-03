@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\pullToRefreshViewPager\\build\\intermediates\\exploded-aar\\MyGoalApplication\\library\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\pullToRefreshViewPager\\build\\intermediates\\exploded-aar\\MyGoalApplication\\library\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]

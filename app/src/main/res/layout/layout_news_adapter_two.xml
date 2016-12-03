@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/one"
+        android:src="@drawable/qq_sdk_login"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/exit"
+        android:src="@drawable/edit"
+        android:layout_below="@+id/one"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="daaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:id="@+id/none_text"/>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/exit">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/none_img"
+            android:src="@drawable/add_channel_titlbar_press_night"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="sadfasfasfasfasfasfasddfas"
+            android:id="@+id/none_text_user"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="daaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:id="@+id/none_text"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:id="@+id/none_img"
+            android:src="@drawable/add_channel_titlbar_press_night"/>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="20dp"
+               android:layout_marginLeft="5dp"
+               android:gravity="center_vertical"
+               android:layout_marginRight="40dp"
+               android:text="sadfasfasaaaaaaaaaasfass"
+               android:id="@+id/none_text_user"/>
+           <ImageView
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:id="@+id/exit"
+               android:layout_toRightOf="@+id/none_text_user"
+               android:src="@drawable/edit"/>
+       </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

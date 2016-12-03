@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jredu.liuyifan.mygoalapplication.fragment.FeedBackFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp"
+        android:scrollbars="none"
+        android:paddingTop="16dp"
+        android:divider="@null"
+        android:id="@+id/list_view">
+    </ListView>
+
+</FrameLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jredu.liuyifan.mygoalapplication.activity.EventActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/back"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/shadow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="活动"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/feedback"
+            android:src="@drawable/new_more_titlebar_night"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray1"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/w2345_image_file_copy_3"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="20dp"
+        android:id="@+id/one_img" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/one_img"
+        android:layout_margin="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/w2345_image_file_copy_4"
+        android:id="@+id/two_img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/two_img"
+        android:layout_marginTop="40dp"
+        android:text="更多活动即将来临"/>
+
+</RelativeLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jredu.liuyifan.mygoalapplication.activity.AttentionActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/shadow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="加关注"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/feedback"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/new_more_titlebar_night" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray1" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout_1"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:checked="true"
+                android:text="推荐" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="段子" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="视频" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="社会" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="图片" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton7"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton8"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton9"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton10"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton11"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton12"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton13"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton14"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton15"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+            <RadioButton
+                android:id="@+id/radioButton16"
+                style="@style/radio_button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="健康" />
+        </RadioGroup>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/relativeLayout_1"
+        android:layout_toRightOf="@+id/horizontalScrollView">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list_view">
+        </ListView>
+        <com.ant.liao.GifView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gif"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

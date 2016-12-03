@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\exploded-aar\\MyGoalApplication\\library\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\android.png",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\src\\main\\res\\drawable-hdpi\\android.png"
+    },
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\exploded-aar\\MyGoalApplication\\library\\unspecified\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\exploded-aar\\MyGoalApplication\\library\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\src\\main\\res\\drawable-hdpi\\icon.png"
+    }
+]

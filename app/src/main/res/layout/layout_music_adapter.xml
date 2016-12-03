@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="16dp">
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:id="@+id/image_view"
+        android:scaleType="fitXY"
+        android:src="@drawable/music_tubiao"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="手游"
+        android:textSize="16sp"
+        android:layout_alignTop="@id/image_view"
+        android:layout_alignLeft="@+id/text_view_title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="asdfsfaslkfjs"
+        android:layout_toRightOf="@id/image_view"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="50dp"
+        android:textSize="12sp"
+        android:layout_alignBottom="@id/image_view"
+        android:id="@+id/text_view_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/image_view"
+        android:layout_alignParentRight="true"
+        android:id="@+id/text_view_ctime"/>
+
+</RelativeLayout>

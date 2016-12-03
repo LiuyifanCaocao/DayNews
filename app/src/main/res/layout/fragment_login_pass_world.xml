@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jredu.liuyifan.mygoalapplication.fragment.LoginPassWorldFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/password_sdk_login"/>
+
+    <EditText
+        android:id="@+id/phone"
+        style="@style/editview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="手机号"
+        android:paddingRight="150dp"
+        android:inputType="phone" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="账号不能为空"
+            android:textSize="10sp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/text_view"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/red"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/pwd"
+            style="@style/editview"
+            android:paddingRight="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="请输入验证码"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/verification"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/verification"
+            android:background="@color/gray1" />
+
+        <TextView
+            android:id="@+id/verification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pwd"
+            android:layout_alignRight="@+id/pwd"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="20dp"
+            android:text="忘记密码"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="未注册手机验证后自动注册"
+        android:textColor="@color/gray3"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/to_logon_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button"
+        android:text="进入头条"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/login_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:text="账号密码登录"
+        android:textColor="@color/blue" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/moreLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="80dp"
+            android:text="更多登录方式"
+            android:textColor="@color/gray2" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="89dp"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@id/moreLogin"
+            android:background="@color/gray1" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="89dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/moreLogin"
+            android:background="@color/gray1" />
+
+        <LinearLayout
+            android:id="@+id/moreLogin_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/noticeable_weixin_normal" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:id="@+id/QQ_login"
+                android:src="@drawable/qq_sdk_login" />
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/noticeable_weixin_normal"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/two"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/noticeable_weixin_normal"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/three"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/noticeable_weixin_normal"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/moreLogin_img"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/moreLogin_img"
+            android:src="@drawable/like_arrow_textpage" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+

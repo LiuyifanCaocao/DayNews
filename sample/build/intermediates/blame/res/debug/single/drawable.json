@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\exploded-aar\\MyGoalApplication\\library\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\Users\\DELL\\AndroidStudioProjects\\MyGoalApplication\\sample\\build\\intermediates\\exploded-aar\\MyGoalApplication\\library\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]
